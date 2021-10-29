@@ -1,0 +1,126 @@
+body{
+    margin:auto;
+    background-color: #263238;
+    width: 1000px;
+}
+
+h1{
+    color: black;
+    font-size: 100px;
+    
+}
+.innpakning{
+    display: flex; 
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px;
+    background-color: #e0f7fa;
+    padding: 5px;
+    gap: 5px
+}
+
+.overskrift{
+    width: 100%;
+    order: 0;
+    background-color: red;
+}
+.meg{
+
+    order: 1;
+    margin: 5px;
+    height : auto;
+    width: 40%;
+    background-color:mediumspringgreen;}
+
+
+.dette-er-meg{
+    height: auto;
+    width: 56.5%;
+    background-color:thistle;
+    padding:5px; /*indre marg*/
+    margin:5px; /*ytre marg*/
+    order: 2;
+    object-fit: cover;
+}
+
+.Meny{
+    background-color: grey;
+    padding:5px; /*indre marg*/
+    margin:5px px; /*ytre marg*/
+    order: 0.5;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-basis: 100%;
+    display: flex;
+}
+
+.liste-inpakning{
+    margin: auto;
+    flex-wrap: wrap;
+    flex-flow: row;
+    justify-content: space-evenly;
+}
+
+.live-mitt{
+    height: 120px;
+    background-color: #b2ebf2;
+    padding:5px; /*indre marg*/
+    margin:5px; /*ytre marg*/
+  order: 4;  
+}
+
+.hobby{
+    order: 6;
+    background-color: coral;
+    flex-basis: 30%;
+}
+
+.top-mat{
+    order: 7;
+    background-color:olivedrab;
+    flex-basis: 30%;
+}
+
+.ønskeliste{
+    order: 8;
+    background-color: peru;
+    flex-basis: 30%;
+
+}
+
+.FavPerson {
+    order: 5;
+    background-color: orchid;
+}
+
+
+ul{
+    list-style-type: none; /*fjerner kulepunkter*/
+    /*margin:5px;  fjerner alle mellomrom
+    padding:5px;   fjerner alle mellomrom*/
+    justify-content: space-between;
+}
+  
+ul li{
+    display:inline; /*gjør listepunktene til inline*/
+    /*display: ;*/
+    
+    justify-content: space-between;
+}
+  
+ul a{
+    padding: 5px 20px; /* avstand mellom bokskant og innhold, topp/bunn 10px og sider 30px*/
+    color: #eceff1; /*mørk grå tekst*/
+    font-weight: bold; /*fet tekst*/
+    text-decoration:none;/* fjerner understrek*/
+    background-color:#455a64;
+    justify-content: space-between;
+}
+  
+ul a:hover{
+    cursor: pointer;
+    background-color: #cfd8dc;
+    font-style: italic;
+    color: #263238;
+  }
