@@ -1,0 +1,34 @@
+section{
+    display: grid;
+    grid-template-columns: 200px 180px 250px;   
+}
+
+article{
+    background-color:steelblue;
+    border: 1px solid rgb(61, 61, 61);
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.ny{
+    display: grid;
+    grid-template-columns: 250px 180px 200px;
+    grid-template-rows: 150px 75px;
+}
+
+.nyere{
+    display: grid;
+    grid-template-columns: 250px 200px 180px;
+    grid-auto-rows: 80px 120px 60px;
+}
+
+.nyeste{
+    display: grid;
+    grid-template-columns: 210px 210px 210px;
+    /*Minmax() setter in en minimun verdig og en maksimunverdi, hvor verdien vil tilpasses innholdet i rekke,
+    (auto) vil alltid tilpasses seg innholdet*/
+    grid-auto-rows: minmax(30px, 300px); 
+
+
+}
