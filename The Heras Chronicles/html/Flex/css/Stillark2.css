@@ -1,0 +1,33 @@
+.innpakning{
+    width: 800px;
+    background-color: darkgrey;
+    margin:auto;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap; /* bestemmer hvordan innholdet orienterseg vannrett*/
+}
+
+.topptekst{
+    flex-basis: 100%; /*fyller bredden i innpakningen er*/
+    height: 120px;
+    background-color: darkgray;
+    padding: 5px;
+    margin: 5px;
+    order: 1;
+}
+
+.meny{
+    flex-basis: 200px; /* angri bredden på boksen*/
+    background-color: cadetblue;
+    padding:5px;
+    margin: 5px;
+    order: 2; 
+}
+
+.innhold{
+    background-color: blueviolet;
+    flex: 1; /* Vil bruke uansett den tigjengelige bredden*/
+    order: 3;
+    padding: 5px;
+    margin: 5px;
+}

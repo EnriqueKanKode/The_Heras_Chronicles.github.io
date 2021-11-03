@@ -1,0 +1,110 @@
+
+/* Dette er bare en eksempel og er ikke i bruk*/
+.boks {
+    width: 70%;
+    height: 60px;
+    margin:5px;  /* topp/bunn-marg er 5 px,  side marg er auto*/
+    padding: 5px;
+    background-color: #329632;
+}
+
+.innpakning{
+    width: 100%; /*bredden på flex boksen*/
+    background-color:black; /* mørk grå farge*/
+    Margin: auto; /*Auto = like merger på høyre og venstre "basicly midtstilt"*/
+    display: flex; /*gjør at dette er en flex boks*/
+    flex-direction:column; /* plassere boksene i en kolone*/
+    flex-wrap: wrap;
+}
+
+.topptekst{ 
+    height: 120px;
+    background-color: darksalmon;
+    padding:5px; /*indre marg*/
+    margin:5px; /*ytre marg*/
+    order: 2;
+}
+
+.meny{
+    background-color: burlywood;
+    padding:5px; /*indre marg*/
+    margin:5px; /*ytre marg*/
+    order: 3;
+}
+
+.innhold{
+    background-color: crimson;
+    padding:5px; /*indre marg*/
+    margin:5px; /*ytre marg*/
+    order: 4;
+}
+
+.bunntekst {
+    display: flex;
+    background-color: whitesmoke;
+    padding:5px; /*indre marg*/
+    margin:5px; /*ytre marg*/
+    order: 5;
+    flex-direction: row;
+    justify-content: space-evenly;
+}  
+
+.tekst{
+    flex-basis: 40%;}
+.vedsidenBunntekst{
+    flex-direction: row;
+    background-color: cyan;
+    order:6;
+}
+
+.innholdVenstre{
+flex-grow: 2;
+
+background-color: darkred;
+flex-basis: 20%;
+}
+
+.innholdMidt{
+flex-grow: 2;
+
+background-color: darkviolet;
+flex-basis: 20%;
+}
+
+.innholdHoyre{
+flex-grow: 2;
+
+background-color: dimgray;
+flex-basis: 20%;
+}
+.navn{
+    background-color:darkviolet;
+    padding:5px; /*indre marg*/
+    margin:5px; /*ytre marg*/
+    order: 1;
+}
+
+ul{
+    list-style-type: none; /*fjerner kulepunkter*/
+    margin:0;/*fjerner alle mellomrom*/
+    padding:0;/*fjerner alle mellomrom*/
+}
+  
+ul li{
+    display:inline; /*gjør listepunktene til inline*/
+}
+  
+ul a{
+    padding: 5px 20px; /* avstand mellom bokskant og innhold, topp/bunn 10px og sider 30px*/
+    color: #333333; /*mørk grå tekst*/
+    font-weight: bold; /*fet tekst*/
+    text-decoration:none;/* fjerner understrek*/
+    background-color:cyan;
+}
+  
+ul a:hover{
+    background-color: #f100bd; /*lys gul*/
+    font-size: 50px;
+    font-style: italic;
+
+  }
