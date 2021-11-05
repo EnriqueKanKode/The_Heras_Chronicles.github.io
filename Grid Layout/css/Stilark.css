@@ -1,0 +1,21 @@
+main{
+    max-width: 800px;
+    min-height: 400px;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    color: white;
+    
+}
+
+nav{
+    background-color: #691c1c;
+    
+}
+
+section{
+    background-color: #b32d2e;
+}
+
+a {
+
+}
