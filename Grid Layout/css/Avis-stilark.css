@@ -17,8 +17,8 @@
 .nyheter h1{
     position: absolute;
     margin: 0;
-    color: white;
-    background-color: #f794f2;}
+    color: black;
+    background-color: #eeee}
 
 
 .nyheter img{
@@ -31,12 +31,7 @@
     object-position: center;
 }
 
-.nyheter h1{
-    position: absolute;
-    margin: 0;
-    color: white;
-    background-color: #f794f2;
-}
+
 
 
 
