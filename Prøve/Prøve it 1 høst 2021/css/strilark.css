@@ -1,0 +1,60 @@
+body{
+    background-color: #c5d9ed;
+}
+
+section{
+    font-family: Helvetica, Arial, sans-serif;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows:minmax(10rem, auto) ;
+    background-color: white;
+    padding: 10px;
+    margin: auto;
+    width: 70%;
+    gap: 10px;
+
+}
+
+.min-nettavis{
+    grid-column: span 3;
+    background-color:#72aee6;
+    text-align: center;
+    font-size: 200%;
+}
+
+.ingress{
+    grid-column: span 3;
+    /* background-color: thistle; */
+    font-size: 24px;
+}
+
+.bilde-1 {grid-column: span 3;}
+.bilde-1 img { width: 100%; object-fit: contain;}
+
+.loddrett-boks{ 
+    background-color: #9ec2e6; 
+    font-size: 16px; 
+    padding-left: 5px; 
+    padding-right: 5px;}
+
+.podkast{ background-color: #f0f6fc;}
+.podkast audio{ 
+    width: 100%; 
+    object-fit: contain; }
+
+.været{ background-color: #e3e3e3;}
+
+table{
+    width: 100%;
+    border: solid gray;
+    gap: none;
+}
+table img{width: 100%; object-fit: contain;}
+table th{ background-color: #e3e3e3; border-bottom: #6e6e6e solid ; /*solid #b8b8b8;*/}
+table td{ background-color: white; border: white;}
+
+.to-kolonner{ grid-column: span 2;}
+.to-rader{ grid-row: span 2;}
+.padding{ padding: 5px;}
+.fredag { text-align:left;
+    /*display: flex; align-items: flex-start;*/}
